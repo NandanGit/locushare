@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/locushare/static/css/main.92d616cf.chunk.css",
+    "main.js": "/locushare/static/js/main.86ee938c.chunk.js",
+    "main.js.map": "/locushare/static/js/main.86ee938c.chunk.js.map",
+    "runtime-main.js": "/locushare/static/js/runtime-main.cf8be614.js",
+    "runtime-main.js.map": "/locushare/static/js/runtime-main.cf8be614.js.map",
+    "static/js/2.64343158.chunk.js": "/locushare/static/js/2.64343158.chunk.js",
+    "static/js/2.64343158.chunk.js.map": "/locushare/static/js/2.64343158.chunk.js.map",
+    "index.html": "/locushare/index.html",
+    "precache-manifest.3d045bd3bc2f27271f45aaa4c899f383.js": "/locushare/precache-manifest.3d045bd3bc2f27271f45aaa4c899f383.js",
+    "service-worker.js": "/locushare/service-worker.js",
+    "static/css/main.92d616cf.chunk.css.map": "/locushare/static/css/main.92d616cf.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf8be614.js",
+    "static/js/2.64343158.chunk.js",
+    "static/css/main.92d616cf.chunk.css",
+    "static/js/main.86ee938c.chunk.js"
+  ]
+}
