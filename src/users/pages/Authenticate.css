@@ -1,0 +1,28 @@
+.authentication__header {
+	color: white;
+	text-align: center;
+}
+
+.authentication {
+	width: 90%;
+	max-width: 25rem;
+	margin: 7rem auto;
+	text-align: center;
+}
+
+.authentication form {
+	margin-bottom: 1rem;
+}
+
+.switch-login-signup {
+	margin-top: 3rem;
+}
+
+.switch-login-signup button {
+	width: 100%;
+}
+
+.authentication hr {
+	border: none;
+	box-shadow: 0 0 1px 0.2px #f8df00;
+}

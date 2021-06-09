@@ -1,0 +1,79 @@
+.nav-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-links li {
+	margin: 1rem;
+}
+
+.nav-links a {
+	/* border: 1px solid transparent; */
+	color: #ccc;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:active,
+.nav-links a.active {
+	background-color: #f8df00;
+	border-color: #292929;
+	color: #292929;
+}
+
+.nav-links button {
+	cursor: pointer;
+	border: none;
+	border-radius: 0.5rem;
+	color: #ccc;
+	background: transparent;
+	padding: 0.5rem;
+	font: inherit;
+	transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nav-links button:focus {
+	outline: none;
+}
+
+.nav-links button:hover,
+.nav-links button:active {
+	background: #de0000;
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	.nav-links {
+		flex-direction: row;
+	}
+
+	.nav-links li {
+		margin: 0 0.5rem;
+	}
+
+	.nav-links a {
+		color: #ccc;
+		text-decoration: none;
+	}
+
+	.nav-links button {
+		color: #ccc;
+		background: transparent;
+	}
+
+	.nav-links button:hover,
+	.nav-links button:active {
+		background: #de0000;
+		color: #fff;
+	}
+}
